@@ -1,12 +1,13 @@
 body{
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    color: #434455;
+    background-color: #ffffff;
 }
 header{
     background-color: #E7E9FC;
 }
-.logo-first{
-    color: #4D5AE5;
+.logo .logo-first{
+    color: #2e2f42;
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -14,8 +15,9 @@ header{
     font-size: 18px;
     font-weight: 700;
     font-style: bold;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
     line-height: 1.17;
+    color: #4D5AE5;
 }
 a{
     text-decoration: none;
@@ -87,10 +89,7 @@ h2{
         letter-spacing: 2%;
         text-align: center;
 }
-.third-section img{
-    width: 264px;
-    height: 260px;
-}
+
 .third-section p {
     font-weight: 400;
     font-style: regular;
@@ -100,10 +99,8 @@ h2{
     color: #434455;
     text-align: center;
 }
-.fourth-section img{
-width: 360px;
-height: 300px;
-}
+
+
 .fourth-section p {
     font-weight: 400;
     font-style: regular;
