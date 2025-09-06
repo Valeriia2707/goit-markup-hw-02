@@ -107,10 +107,10 @@ h2{
     letter-spacing: 0.02em;
     color: #434455;
 }
-footer{
+.footer{
     background-color: #2E2F42;
 }
-footer p{
+.footer .footer-text{
     font-weight: 400;
         font-style: regular;
         font-size: 16px;
@@ -118,6 +118,6 @@ footer p{
         letter-spacing: 0.02em;
         color: #F4F4FD;
 }
-footer .logo{
+.footer .logo{
     color: #F4F4FD;
 }
