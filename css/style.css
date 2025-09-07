@@ -34,10 +34,10 @@ header{
     color:#2e2f42;
 }
 
-.nav-link-first:hover{
+#nav-link-first:hover{
     color:#404bbf;
 }
-.nav-link-first:focus{
+#nav-link-first:focus{
     color:#404bbf;
 }
 .address{
