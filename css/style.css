@@ -8,6 +8,7 @@ header{
 }
 .logo .logo-first{
     color: #2e2f42;
+    text-decoration: none;
 }
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -18,22 +19,40 @@ header{
     letter-spacing: 0.03em;
     line-height: 1.17;
     color: #4D5AE5;
+    text-decoration: none;
 }
-a{
+.address-link{
     text-decoration: none;
     color: #2E2F42;
 }
-.nav-style{
+.nav-link .nav-link-first{
     letter-spacing: 0.02em;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    text-decoration: none;
 }
-.nav-address-style{
+.nav-link-first:hover{
+    color:#404bbf;
+}
+.nav-link-first:focus{
+    color:#404bbf;
+}
+.address{
+    font-style: normal;
+}
+.list-address-style{
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    color:#434455;
+}
+.list-address-style:hover{
+    color:#404bbf;
+}
+.list-address-style:focus{
+    color:#404bbf;
 }
 .first-section{
     background-color: #2E2F42;
@@ -47,28 +66,33 @@ a{
     letter-spacing: 0.02em;
     text-align: center;
 }
-button{
+.button{
     background-color: #4D5AE5;
-}
-.button-text{
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
         font-weight: 500;
-        color: white;
+        color: #ffffff;
+        cursor: pointer
 }
-h3{
+.button:hover{
+    color: #404bbf;
+}
+.button:focus{
+    color: #404bbf;
+}
+.second-heading{
     font-weight: 500;
     font-style: medium;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.team-text {
+.team-heading {
     text-align: center;
 }
 
-.second-section p{
+.second-section .second-paragraph{
     font-weight: 400;
     font-style: regular;
     font-size: 16px;
@@ -79,16 +103,21 @@ h3{
 .third-section{
     background-color: #F4F4FD;
 }
-h2{
+.third-heading{
         font-weight: 700;
         font-style: bold;
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
+        color:#2e2f42;
+}
+.third-list{
+    background-color: #ffffff;
 }
 
-.third-section p {
+.third-section .third-paragraph {
     font-weight: 400;
     font-style: regular;
     font-size: 16px;
@@ -98,8 +127,25 @@ h2{
     text-align: center;
 }
 
+.fourth-heading{
+    font-weight: 700;
+        font-style: bold;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+        color: #2e2f42;
+}
+.portfoio-heading {
+    font-weight: 500;
+    font-style: medium;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 
-.fourth-section p {
+.fourth-section .fourth-paragraph {
     font-weight: 400;
     font-style: regular;
     font-size: 16px;
@@ -118,6 +164,6 @@ h2{
         letter-spacing: 0.02em;
         color: #F4F4FD;
 }
-.footer .logo{
+.footer .logo-first{
     color: #F4F4FD;
 }
